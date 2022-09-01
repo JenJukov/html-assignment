@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(rgba(33, 79, 247, 0.637), rgba(5, 246, 37, 0.707)),
+    url(1.jfif);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  cursor: help;
+  margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
+  cursor: help;
+  margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-top: auto;
+  margin-top: 35px;
+}
+
+p {
+  text-align: center;
+  margin: 0;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+}
+
+form {
+  background: linear-gradient(rgba(33, 79, 247, 0.637), rgba(5, 246, 37, 0.707)),
+    url(1.jfif);
+  margin: 0 auto;
+  background: rgba(0, 186, 255, 0, 77);
+  width: 450px;
+  height: 500px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+}
+
+group {
+  margin: 10px;
+  padding: 5px;
+}
+
+label {
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+input {
+  margin-top: 30px;
+  height: 40px;
+  width: 400px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 15px;
+  font-size: 18px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.82);
+}
+
+button {
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 30px;
+  height: 50px;
+  color: rgb(244, 248, 248);
+  background: #0f0e0e;
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+  font-weight: bold;
+  transform: scale(1.1);
+}
