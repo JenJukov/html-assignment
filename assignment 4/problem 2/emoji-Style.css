@@ -1,0 +1,150 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.content-area {
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(247, 187, 8);
+  border-radius: 35px;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(247, 187, 8);
+}
+
+.header-area nav {
+  height: 55px;
+  margin-top: 35px;
+}
+
+.header-area ul {
+  margin: auto;
+  padding: 20px 0;
+}
+
+.header-area li {
+  font-family: emoji;
+  color: rgb(255, 255, 255);
+  padding: 20px 40px;
+  display: inline;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: white;
+  margin: 1px;
+}
+
+#nameA {
+  width: 15%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+#nameB {
+  width: 20%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+#nameC {
+  width: 10%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+#nameD {
+  width: 15%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+#nameE {
+  width: 27%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+#nameF {
+  width: 22%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: black;
+  margin: 30px;
+}
+
+.list-area {
+  margin: auto !important;
+  width: 88% !important;
+}
+
+.img-area {
+  margin: auto !important;
+  width: 50% !important;
+}
+
+.img-area-fav {
+  margin: auto !important;
+  width: 88% !important;
+}
+
+.text-area {
+  padding: 0px 30px;
+}
+
+.content-area h1 {
+  font-family: Mabook;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.685);
+  color: rgb(247, 187, 8);
+}
+
+.content-area h2 {
+  text-shadow: 2px 2px rgb(247, 187, 8);
+  padding: 8px;
+  font-family: Mabook;
+}
+
+.list-area {
+  font-family: cursive;
+}
+
+p {
+  font-family: cursive;
+}
+
+footer {
+  margin-top: 50px;
+  border-top-width: 2px;
+  border-top-style: dotted;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(247, 187, 8);
+}
+
+footer a {
+  color: rgb(247, 187, 8);
+}
+
+footer button {
+  background-color: rgb(143, 1, 1);
+  border-style: none;
+  margin-top: 10px;
+}
