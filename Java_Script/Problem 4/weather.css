@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --primary-color: #05496C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mplus 1p Bold';
+    padding-bottom: 65px;
+}
+
+
+h1 {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160.19%;
+}
+
+/* title */
+
+.title h1 {
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+/* navbar */
+
+.navbar .container {
+    background: #F1F6FB;
+    border-radius: 19px;
+    padding: 25px;
+}
+
+.navbar p {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* climate */
+
+
+.climate .flex {
+    margin-top: 55px;
+}
+
+.climate p {
+    font-family: 'Roboto';
+    margin-top: 35px;
+}
+
+.climate .grid {
+    margin-top: 75px;
+    grid-template-columns: repeat(3, 1fr);
+    height: 300px;
+}
+
+.climate .grid img {
+    border-radius: 16px;
+    width: 397px;
+    height: auto;
+    justify-self: center;
+}
+
+.climate .grid img:hover {
+    transform: scale(1.1);
+    content: url(./images/party_cloudy1.png);
+}

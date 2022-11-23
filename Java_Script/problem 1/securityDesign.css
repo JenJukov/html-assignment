@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url(./images/header.png);
+    height: 810px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    padding-top: 44px;
+    padding-left: 85px;
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 72px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.menu a:hover {
+    color: #6F513F;
+    text-decoration: underline;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.main_title {
+    margin-top: 225px;
+    margin-left: 85px;
+}
+
+.main_title h1 {
+    color: #19110F;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+main {
+    padding: 22px 80px 55px 90px;
+    display: flex;
+    gap: 105px;
+}
+
+.left {
+    margin-top: 20px;
+    width: 25%;
+}
+
+.camera {
+    position: relative;
+}
+
+.left .camera .camera1:hover {
+    content: url('./images/camera2.png');
+}
+
+.left .camera .camera1:hover~.navi  {
+    opacity: 1;
+} 
+
+.navi {
+    opacity: 0;
+}
+
+.navi ul {
+    padding: 0;
+    list-style: none;
+    background: #D9E4EA;
+    border-radius: 9px;
+    width: fit-content;
+}
+
+.navi li {
+    color: #6093AF;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px 17px;
+}
+
+.right {
+    width: 75%;
+}
+
+.title {
+    margin-top: 65px;
+}
+
+.title h2 {
+    color: #6093AF;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.explain {
+    margin-top: 31px;
+}
+
+.explain p {
+    color: #000000;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 122.8%;
+}
+
+.blue {
+    color: #3F677E;
+}
+
+.image {
+    margin-top: 105px;
+    text-align: center;
+}
+
+.image .image2 {
+    opacity: 0.3; 
+}
+
+.image .image2:hover{
+    opacity: 1; 
+}
+

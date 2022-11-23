@@ -1,0 +1,25 @@
+.container {
+    max-width: 1265px;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 20px;
+}
