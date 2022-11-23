@@ -1,0 +1,102 @@
+* {
+  margin: 10px;
+}
+
+header {
+  background-image: url(Imeges/Rectangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.lambo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding-left: 85px;
+}
+
+.lambo h1 {
+  color: #fabd07;
+  font-family: "SF Pro Display";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 10px;
+}
+
+.nav {
+  padding-top: 10px;
+  padding-right: 85px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.nav a {
+  color: #ffffff;
+  font-family: "SF Pro Display";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+main {
+  padding-right: 88px;
+  padding-bottom: 125px;
+  padding-left: 90px;
+  display: flex;
+  gap: 105px;
+}
+
+.tier img:hover {
+  margin-top: 70px;
+  transform: scale(2, 2);
+}
+
+.title {
+  margin-top: 75px;
+}
+
+.title h2 {
+  font-family: "SF Pro Display";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.explain {
+  margin-top: 30px;
+}
+
+.explain p {
+  margin: 1em 0;
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.images {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.images img {
+  width: 40%;
+  height: auto;
+}
+
+.images img:hover {
+  transform: scale(1.5, 1.5);
+}

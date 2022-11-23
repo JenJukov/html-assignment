@@ -1,0 +1,61 @@
+1. If we want to define the style for a unique element, then which CSS selector
+will we use?    
+
+ id
+
+
+2. Can we align a Block element by setting the left and right margins?
+
+ yes
+
+3. If we want to wrap a block of text around an image, which CSS property will
+we use?
+
+ float
+
+4. If we want to use a nice-looking green dotted border around an image, which
+CSS property will we use?
+
+ border-style
+
+5. What should be the table width, so that the width of a table adjusts to the
+current width of the browser window?
+
+ 100%
+
+6. Which attribute can be added to many HTML / XHTML elements to identify
+them as members of a specific group?
+
+ id
+
+7. The default value of "position" attribute is _________.
+
+ fixed
+
+8. By default, Hyperlinks are displayed with an underline. How do you remove
+the underline from all hyperlinks by using CSS code?
+
+ a { text-decoration:none; }
+
+9. Pseudo-classes In CSS
+
+ Are used to define a special state of an element
+
+
+10. Which keyword inherits its value from its parent element?
+
+ inherit
+
+11. Which gradients define the color by their center?
+
+ Radial Gradients
+
+12. In an RGBA color value, what does A stand for?
+
+ specifies the opacity for a color
+
+
+
+
+
+

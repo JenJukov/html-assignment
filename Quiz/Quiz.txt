@@ -1,0 +1,68 @@
+Html Quiz
+
+
+1.  HTML is what type of language?
+     Markup Language
+
+2.  HTML uses:
+     User-defined tags
+
+3. What other tag makes text bold beside the <b> tag?
+     <strong>
+
+4. How can you make a bulleted list with numbers?
+    <ol>
+
+5. What tag is used to display a picture on an HTML page?
+     img
+
+6. Which HTML tag produces the biggest heading?
+    <h1>
+
+7. Tags and texts not directly displayed on the page are written in the _____ section.
+     <head>
+
+8. Assuming all the following tags are present which must come first within the   <table> HTML tag.
+     <th>
+
+9. What must be used in conjunction with the <colgroup> HTML tag?
+    The span attribute
+
+10. Which HTML tag is mandatory when using the <thead> HTML tag?
+      Both of the above
+
+11. Which of the following HTML tags is a self-closing tag?
+      <col>
+
+12. Which of the following HTML tags can appear multiple times within the <table> HTML tag?
+        All of the above
+
+14. The <thead> HTML tag must contain one or more <tr> HTML tags?
+      False
+
+15. The order of the <thead> <tbody> and <tfoot> HTML tags within the <table> HTML tag doesn't matter?
+            False
+
+16. Which HTML tag allows us to define a form control group?
+       <form>
+
+17. The <option> HTML tag can be used within the <optgroup> and within which other form tag?
+       <select>
+
+
+ 18. Which HTML tag allows us to define a caption for a form control group?
+        <legend>
+
+19. The <optgroup> HTML tag is selectable by the user?
+       True
+
+20. Which attribute from the <input> HTML tag is used to bind with the id  attribute from the <datalist> HTML tag?
+      list
+
+21. Which HTML tag is often used together with the <fieldset> HTML tag?
+      <legend>
+ 
+22. Which attribute from the <output> HTML tag is used to bind with the id attribute from the <input> HTML tag?
+      id
+      
+ 
